@@ -1,0 +1,28 @@
+.top-bar{
+    margin-top:40px
+}
+
+.conrtaine{
+    width:70%;
+    margin: 0 auto;
+}
+.table-container{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-container td,
+.table-container th
+{
+    border:1px solid green;
+    padding:10px
+}
+.table-container tr:nth-child(even){
+    background-color:antiquewhite
+}
+.table-container tr:hover{
+    background-color:burlywood
+}
+.table-container th{
+    text-align:left;
+    background-color:rgba(127, 255, 212, 0.507)
+}

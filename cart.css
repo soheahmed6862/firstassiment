@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.cart{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.cartdetails{
+    width:300px;
+    height: auto;
+    text-align:center;
+    
+}
+.cartimg{
+    background-color: yellow;
+    height:200px
+}
+.cartdetails img{
+    width:150px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+}
+.informationbackrouncallor{
+    background-color:green;
+    height:200px
+}
+.cartimformation h1{
+padding-top: 40px;
+}
+.cartimformation  p{
+    margin:20px 0;
+}
+.cartbtn .btn{
+ padding:8px 15px;
+ border-radius:5px;
+ outline:0;
+}
